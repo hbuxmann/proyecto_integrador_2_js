@@ -1,0 +1,270 @@
+/* Header */
+
+header img {
+    width: 160px;
+    height: 100px;
+}
+
+.font_header_white {
+    color: white;
+    font-weight: bold;
+}
+
+.conf_bs_as {
+    color: white;
+    font-weight: bold;
+    font-size: 2rem!important;
+}
+
+.font_header_gray {
+    color: gray;    
+    font-weight: bold;    
+}
+
+.font_header_green {
+    color: green;
+    font-weight: bold;
+    
+}
+
+.bg-secondary-custom {
+    background-color: #424242;
+    margin-bottom:  0px !important;
+    border-bottom: 0px !important;
+}
+
+.margin_r {
+    margin-right: 3rem;
+    font-size: 1.3rem;
+
+}
+
+/*  fin header */
+
+/* imagen principal */
+
+
+/* card group */
+
+
+/* Footer */
+
+.container-footer {
+    background-color: rgb(29, 67, 88);
+}
+
+.li-maxwidth {
+    display: flex;
+    width: 6%;
+    margin: 30px 30px;
+    align-items: center;
+}
+
+
+
+.background-img {    
+    opacity: 0.45;
+}
+
+.button_top {
+    border-radius: 10px;
+    margin-top: 15px;
+    padding: 10px;
+}
+
+.background_button_top {
+    background-color: rgba(0, 0, 0, 0);
+    border-color: white;
+}
+
+.background_button_top_green {
+    background-color: rgb(138,201, 109 );
+}
+
+.backgrout_yellow {
+    color: darkblue;
+    font-weight: bold;    
+    background-color: rgb(227,180,61);
+    border-radius: 5px; 
+    padding: 2.5px;   
+}
+
+.backgrout_greenplus {
+    color: white;
+    font-weight: bold;    
+    background-color: rgb(22,162,185);
+    border-radius: 5px; 
+    padding: 2.5px;   
+}
+
+
+.backgrout_red {
+    color: white;
+    font-weight: bold;   
+    background-color: rgb(219,57,62);
+    border-radius: 5px; 
+    padding: 2.5px;   
+}
+
+.background_grey {
+    color: white;
+    font-weight: bold;    
+    background-color: darkgrey;
+    border-radius: 5px; 
+    padding: 2.5px;   
+}
+
+
+.imagen_bottom {
+    /* width: 50%;     */
+    margin: 50px 5px;
+}
+
+.bg-card-body{
+    background-color: darkgrey;
+}
+.contact_form {
+    width: 45%;
+    margin: 30px;
+    margin: 0 auto;
+    /* justify-content: center; */
+    /* text-align: center; */
+}
+
+.box_student {
+    display: flex;
+    width: 32%;
+    justify-content: center;
+    /* width: 35%; */
+    margin-top: 30px;
+    margin-left: 2px;
+    margin-right: 2px;
+    border-style: solid;
+    border-color: rgb(203, 229, 254);
+    
+}
+.box_student_plus {
+    display: flex;
+    width: 32%;
+    justify-content: center;
+    /* width: 35%; */
+    margin-top: 30px;
+    margin-left: 2px;
+    margin-right: 2px;
+    border-style: solid;
+    border-color: rgb(238, 224, 179);
+    
+}
+
+p:nth-of-type(2) {
+    font-size: 0.7rem;
+}
+
+
+
+.background_black {
+    color: white;    
+    font-size: 1.5rem;
+    background-color: rgb(53, 58, 64);    
+    padding: 2.5px;   
+}
+
+.button_bottom {
+    width: 100%;
+    background-color: rgb(150, 201, 62);
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 5px;
+    margin: 15px 0px;
+    
+}
+
+.title_height {
+    font-size: 3rem;
+    font-weight:500;  
+    padding: 10px 0px;
+}
+
+.form_title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form_title_top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-top: 15px;     */
+}
+
+.position-relative {
+    position: relative;
+    text-align: right;
+    width: 90%;
+    padding: 0px!important;
+    font-size: 0.8rem;
+}
+
+
+.position-absolute {
+    position: absolute;
+    left: 20vh;
+    top: 3vh;
+}
+
+.relative {
+    position: relative!important;
+    text-align: right;
+}
+
+.total_a_pagar {
+    width: 100%;
+    background-color: rgb(203, 229, 254);
+    padding: 10px;
+}
+
+.absolute {
+    position: absolute;
+    top: 10vh;
+    right: 10vw;
+
+    /*
+    top: 100px;
+    right: 150px;
+    */
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {
+    .example {background: green;}
+  } */
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  /* @media only screen and (min-width: 768px) {
+    .example {background: blue;}
+  }  */
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  /* @media only screen and (min-width: 992px) {
+    .example {background: orange;}
+  }   */
+  
+  @media only screen and (max-width: 600px) {
+    .absolute {
+        top: 0;
+        left: 0;
+        font-size: .7rem;
+        
+    }
+  }
+
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1390px) {
+    .relative {
+        /* position: relative;
+        text-align: right;
+        width: 80%; */
+        font-size: 1.5em;
+    }
+  }
+
