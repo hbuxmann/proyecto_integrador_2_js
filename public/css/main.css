@@ -206,6 +206,11 @@ p:nth-of-type(2) {
 }
 
 
+.mensaje {
+    color: red;
+    display: none;
+}
+
 .position-absolute {
     position: absolute;
     left: 20vh;

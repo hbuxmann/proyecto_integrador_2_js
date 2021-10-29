@@ -77,25 +77,29 @@
               </div> 
               <div class="col-md-6">
                 <label for="cantidad" class="form-label">Cantidad</label>
-                <input type="text" class="form-control" id="cantidad" placeholder="cantidad">
+                <input type="number" class="form-control" id="cantidad" placeholder="cantidad" min="1" max="5">
               </div>
               <div class="col-md-6">
                 <label for="categoria" class="form-label">Categoría</label>
                 <select id="categoria" class="form-select">
-                  <option selected>Estudiante</option>
+                  <option>Seleccioná una categoria</option>
+                  <option>Estudiante</option>
                   <option>Trainee</option>
                   <option>Junior</option>
                   <!-- <option>...</option> -->
                 </select>
               </div>
               <div class="col-12">
-                <label for="inputAddress" class="form-label total_a_pagar">Total a Pagar: $</label>
-              </div>              
+                <label for="inputAddress" class="form-label total_a_pagar" id="totalCuenta">Total a Pagar: $</label>
+              </div> 
+              <div class="form_title_top mensaje" id="mensaje">
+                <h5>mensaje</h5>
+              </div>             
               <div class="col-md-6">
                 <button type="reset" class="btn btn-primary button_bottom">Borrar</button>
               </div>
               <div class="col-md-6">
-                <button type="submit" class="btn btn-primary button_bottom"">Resumen</button>
+                <button type="submit" class="btn btn-primary button_bottom" id="calcular">Resumen</button>
               </div>              
             </form>
 
@@ -116,6 +120,6 @@
             </footer>
           </div>
           <!-- FIN footer -->              
-
+          <script src="index.js"></script>
     </body>
 </html>
