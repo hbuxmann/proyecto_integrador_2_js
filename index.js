@@ -25,6 +25,8 @@ function calcular(e) {
         console.log(errorMsg);
         mensaje.style.display = "flex";
         mensaje.textContent = errorMsg;
+
+        alert(errorMsg);
         return;
     } else {
         mensaje.style.display = "none";
